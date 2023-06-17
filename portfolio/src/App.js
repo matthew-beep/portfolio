@@ -8,11 +8,20 @@ function App() {
   return (
     <div className="App">
       <div className='page-container'>
-        <header className="App-header">
-          <Nav /> 
-        </header>
-        <Body />
-        <Body />
+        <div className='blob1'></div>
+        <div className='blob2'></div>
+        
+        <div className='main-content'>
+          <div className='container nav-body'>
+            <header className="App-header">
+              <Nav /> 
+            </header>
+            <Body />
+          </div>
+          <div className='container nav-body about'>
+            <Body />
+          </div>
+        </div>
       </div>
     </div>
   );

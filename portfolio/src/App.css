@@ -46,17 +46,58 @@
     display: none;
   }
 
-  body {
-    background-color: #002233;
+  .home-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
+
+  .intro-text {
+    text-align: center;
+    border: 1px solid red;
+  }
+
+  .blob1 {
+    height: 40vh;
+    width: 35vw;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-image: url('./components/img/blobrightcorner.svg');
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: top right;
+    object-fit: cover;
+  }
+  
+
+}
+
+@media (min-width: 769px) {
+  .intro-text {
+    text-align: left;
+    border: 1px solid brown;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
 
 }
 /* Nav Bar */
+body {
+  background-color: #002233;
+}
+
+nav {
+  border: 1px solid black;
+}
 
 nav ul {
   display: flex;
   list-style-type: none;
-
   justify-content: space-between;
   padding: 0;
 }
@@ -65,11 +106,33 @@ nav li {
   color: white;
 }
 
+.blob1 {
+  height: 70vh;
+  width: 35vw;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-image: url('./components/img/blobrightcorner.svg');
+  background-repeat: no-repeat;
+  background-size: 90% auto;
+  background-position: top right;
+  object-fit: cover;
+}
+
+.blob2 {
+  height: 90vh;
+  width: 25vw;
+  bottom: -50vh;
+  left: 0;
+  position: absolute;
+  background-image: url('./components/img/blob\ left\ corner.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top right;
+  object-fit: cover;
+}
 
 /* Home Page */
-.intro-text {
-  text-align: left;
-}
 
 .intro-text h1 {
   text-decoration: 4px underline #5C68E2;
@@ -85,9 +148,17 @@ nav li {
 }
 
 .test2 {
-
+  border: 1px solid green;
 }
 
+.nav-body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding-top: 8.33%;
+  border: 1px solid red;
+  padding-left: 0;
+}
 
 .home {
   width: 100vw;
@@ -98,6 +169,8 @@ nav li {
   justify-content: center;
   align-items: center;
   padding: 0;
+
+  border: 1px solid black;
 }
 
 .home-content {
@@ -105,13 +178,16 @@ nav li {
   width: 100%;
   position: relative;
   top: -5vh;
-  padding-right: 10vw;
-  padding-left: 10vw; 
+  padding-right: 5vw;
+  padding-left: 5vw; 
+  border: 1px solid blue;
 }
 
+
+
 .circle {
-  width: 250px;
-  height: 250px;
+  width: min(45vw, 45vh);
+  height: min(45vw, 45vh);
   border-radius: 50%;
   margin: auto;
   overflow: hidden;
@@ -126,16 +202,22 @@ nav li {
   object-fit: cover;
 } 
 
+/*
 .page-container {
-  background-image: url('./components/img/test-svg2.svg');
+  background-image: url('./components/img/blob-scene-1.svg');
   background-size: 100% auto; 
   z-index: -1;
-  padding-top: 8.33%;
   padding-bottom: 0;
   height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
 
 }
+*/
 
 
 
 /* About Page */
+.about {
+
+}
