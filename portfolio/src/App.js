@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav.js';
+import Body from './components/Body.js';
+import { Router } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav /> 
-      </header>
-      <div className='container home'>
-        <div className='row align-items-center'>
-          <div className='col-12 col-md-6 test1'>
-            Hello
-          </div>
-          <div className='col-12 col-md-6 test2'>
-            Hello
-          </div>
-        </div>
+      <div className='page-container'>
+        <header className="App-header">
+          <Nav /> 
+        </header>
+        <Body />
+        <Body />
       </div>
     </div>
   );

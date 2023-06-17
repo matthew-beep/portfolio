@@ -10,7 +10,7 @@ export default function Nav(props) {
 
     
     return (
-        <nav className='container' id = "myDIV">
+        <nav className='container col-lg-4' id = "myDIV">
             <ul>
                 <li id="home-link" >Home</li>
                 <li >About</li>
