@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import './index.css';
 import Nav from './components/Nav.js';
 import Body from './components/Body.js';
-import { Router } from 'react-router-dom';
+import About from './components/About.js';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
             </header>
             <Body />
           </div>
-          <div className='container nav-body about'>
-            <Body />
+          <div className='container nav-body about border-2 border-solid'>
+            <About />
           </div>
         </div>
       </div>

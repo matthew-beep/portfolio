@@ -1,6 +1,7 @@
 import { React } from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 export default function Nav(props) {
 
 
@@ -10,12 +11,12 @@ export default function Nav(props) {
 
     
     return (
-        <nav className='container col-lg-4 w-1/4' id = "myDIV">
+        <nav className='container w-1/3' id = "myDIV">
             <ul>
-                <li id="home-link" >Home</li>
-                <li >About</li>
-                <li >Projects</li>
-                <li>Contact</li>
+                <li className='text-xl'>Home</li>
+                <li className='text-xl'>About</li>
+                <li className='text-xl'>Projects</li>
+                <li className='text-xl'>Contact</li>
             </ul>
         </nav>
     )
