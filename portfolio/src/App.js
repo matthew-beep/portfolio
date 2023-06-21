@@ -4,6 +4,7 @@ import './index.css';
 import Nav from './components/Nav.js';
 import Body from './components/Body.js';
 import About from './components/About.js';
+import Skills from './components/Skills.js';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </div>
           <div className='container nav-body about border-2 border-solid'>
             <About />
+          </div>
+          <div className='container nav-body about border-2 border-solid'>
+            <Skills />
           </div>
         </div>
       </div>
