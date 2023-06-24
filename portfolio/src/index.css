@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+@layer components {
+  .pill {
+    @apply rounded-full bg-purple text-white px-2 py-1 hover:bg-white hover:text-purple;
+  }
+
+  .btn-link {
+    @apply w-1/2 px-1 py-1 bg-purple text-white rounded-md text-center no-underline hover:bg-white hover:text-purple;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
