@@ -20,6 +20,7 @@
 }
 
 
+/*Transition Name*/
 @keyframes transitionLeft {
   from {
     opacity: 0;
@@ -31,6 +32,7 @@
   }
 }
 
+/*Transition Picture*/
 @keyframes transitionRight {
   from {
     opacity: 0;
@@ -39,6 +41,16 @@
   to {
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+
+/*Hi Transition*/
+@keyframes welcome {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -135,6 +147,10 @@ nav li {
 }
 
 /* Home Page */
+
+.welcome {
+  animation: welcome 5s;
+}
 
 .intro-text h1 {
   text-decoration: 4px underline #5C68E2;
@@ -233,10 +249,73 @@ i {
 */
 
 
+/* Body Page */
+
+
 
 /* About Page */
 .about h2 {
   font-family: "proxima-nova", sans-serif;
   font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Skills Page */
+
+.skill-head h4 {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* Projects */
+
+.project-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  transform: translateY(100%);
+}
+
+.project-container:hover .info {
+  transform: translateY(0);
+}
+
+
+
+
+
+
+/* Fonts */
+.black {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.bold {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.semiBold {
+  font-family: 'proxima-nova', sans-serif;
+  font-weight: 600;
   font-style: normal;
 }
