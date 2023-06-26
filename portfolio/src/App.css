@@ -298,6 +298,15 @@ i {
 
 
 
+/* VizDAS */
+.vizdas-header h1 {
+  padding-left: 8.3vw;
+}
+
+.vizdas-contain {
+  padding: 0 8.3vw;
+}
+
 
 
 
@@ -318,4 +327,16 @@ i {
   font-family: 'proxima-nova', sans-serif;
   font-weight: 600;
   font-style: normal;
+}
+
+.extraBold {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.boldItalic {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }

@@ -1,11 +1,15 @@
 import { React } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default function Nav(props) {
 
 
-
+    const scrollToSection = (sectionId) => {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    };
+      
     //var element = document.getElementById(active);
     
 
@@ -13,9 +17,9 @@ export default function Nav(props) {
     return (
         <nav className='container w-1/3' id = "myDIV">
             <ul>
-                <li className='text-xl'>Home</li>
-                <li className='text-xl'>About</li>
-                <li className='text-xl'>Projects</li>
+                <li className='text-xl'><Link to='/' onClick={() => scrollToSection('home')}>Home</Link></li>
+                <li className='text-xl'><Link to='/' onClick={() => scrollToSection('about')}>About</Link></li>
+                <li className='text-xl'><Link to='/' onClick={() => scrollToSection('projects')}>Projects</Link></li>
                 <li className='text-xl'>Contact</li>
             </ul>
         </nav>

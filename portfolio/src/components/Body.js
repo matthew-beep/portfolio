@@ -3,7 +3,7 @@ import {ReactComponent as Background} from './img/blob-scene-haikei.svg';
 
 export default function Body(props) {
     return (      
-        <div className='container home'>
+        <div id='home' className='container home'>
             <div className='row align-items-center home-content'>
                 <div className='col-12 col-md-6 intro-text'>
                     <h4 className='text-2xl welcome'>Hi, I am</h4>
@@ -17,7 +17,7 @@ export default function Body(props) {
                                     <i class="fa-brands fa-linkedin text-5xl hover:text-white"></i>
                                 </a>
                             </div>
-                                <i class="fa-brands fa-github text-5xl hover:text-white"></i>
+                                <a href='https://github.com/matthew-beep' target='_blank'><i class="fa-brands fa-github text-5xl hover:text-white"></i></a>
                                 <i class="fa-solid fa-envelope text-5xl hover:text-white"></i>
                                 <i class="fa-solid fa-file text-5xl hover:text-white"></i>
                         </div>

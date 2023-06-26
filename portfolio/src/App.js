@@ -6,43 +6,20 @@ import Body from './components/Body.js';
 import About from './components/About.js';
 import Skills from './components/Skills.js';
 import Projects from './components/Projects.js';
+import Content from './components/Content.js';
+import VizDAS from './components/VizDAS.js';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <div className='page-container'>
-        <div className='blob1'></div>
-        <div className='blob2'></div>
+      <Router>
         
-        <div className='main-content'>
-          <div className='nav-body'>
-            <header className="App-header">
-              <Nav /> 
-            </header>
-            <Body />
-          </div>
-          <div className='nav-body about '>
-            <About />
-          </div>
-          <div className='nav-body about '>
-            <Skills />
-          </div>
-          <div className='nav-body about border-2 border-solid h-auto'>
-            <Projects />
-          </div>
-          <footer>
-            <nav>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
-            <p className='text-white'>Built and Designed by Matthew Herradura 2023</p>
-          </footer>
-        </div>
-      </div>
+        <Routes>
+          <Route path="/" element={<Content />}/>
+          <Route path="/VizDAS" element={<VizDAS />}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

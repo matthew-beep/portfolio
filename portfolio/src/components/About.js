@@ -3,7 +3,7 @@ import { React } from 'react';
 
 export default function About(props) {
     return (      
-        <div className='border-2 border-solid text-white about flex flex-col items-center'>
+        <div id='about' className='border-2 border-solid text-white about flex flex-col items-center'>
             <h2 className='text-5xl underline decoration-purple underline-offset-8 text-white mb-8'>
                 About Me 
             </h2>
@@ -13,10 +13,6 @@ export default function About(props) {
             I am a graduate from the University of Washington and recently obtained a degree in Informatics with a focus on Human Computer Interaction. 
 
             Through my studies, I have learned 
-
-
-
-
             </p>
         </div>
     )

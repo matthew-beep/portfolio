@@ -12,6 +12,11 @@
   .btn-link {
     @apply w-1/2 px-1 py-1 bg-purple text-white rounded-md text-center no-underline hover:bg-white hover:text-purple;
   }
+
+  .project-square {
+    @apply mb-5 w-96 rounded-md border-[#999999] drop-shadow-xl h-80 flex justify-center border-2;
+  }
+
 }
 
 body {
