@@ -8,17 +8,21 @@ import Skills from './components/Skills.js';
 import Projects from './components/Projects.js';
 import Content from './components/Content.js';
 import VizDAS from './components/VizDAS.js';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop.js';
+import { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
-        
-        <Routes>
-          <Route path="/" element={<Content />}/>
-          <Route path="/VizDAS" element={<VizDAS />}/>
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Content />}/>
+            <Route path="/VizDAS" element={<VizDAS />}/>
+          </Routes>
+        </ScrollToTop>
       </Router>
     </div>
   );

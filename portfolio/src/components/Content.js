@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, useEffect } from 'react';
 import Nav from './Nav.js';
 import Body from './Body.js';
 import About from './About.js';
@@ -7,7 +7,7 @@ import Projects from './Projects.js';
 import { useLocation } from 'react-router-dom';
 
 export default function Content(props) {
-    const location = useLocation();
+
     return (
         <div className='page-container'>
             <div className='blob1'></div>
@@ -26,7 +26,7 @@ export default function Content(props) {
                 <div className='nav-body about '>
                     <Skills />
                 </div>
-                <div className='nav-body about border-2 border-solid h-auto'>
+                <div className='nav-body about h-auto'>
                     <Projects />
                 </div>
                 <footer>

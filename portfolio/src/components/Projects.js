@@ -7,12 +7,13 @@ import { Link } from 'react-router-dom';
 
 
 export default function Projects(props) {
+    
     return (      
         <div id='projects'>
             <h2 className='text-5xl underline decoration-purple underline-offset-8 text-white mb-8'>
                 Projects
             </h2>
-            <div className='border-2 border-purple border-solid m-auto px-3'>
+            <div className='m-auto px-3'>
                 <div className='flex flex-wrap justify-between'>
                     <div className='project-square project-container'>
                         <div className='w-full h-full bg-purple'>
