@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.465e3ca7.css",
+    "main.js": "/static/js/main.32b4684e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/imdbDoc.pdf": "/static/media/imdbDoc.a2a9cf944807165cbcef.pdf",
+    "static/media/imdbPres.pdf": "/static/media/imdbPres.d668efe1f56e6c8dab04.pdf",
+    "static/media/MH-Summary.pdf": "/static/media/MH-Summary.bf024c9ee856c63373f8.pdf",
+    "static/media/john-persona.jpg": "/static/media/john-persona.7908a934ec2e79cefc11.jpg",
+    "static/media/VizDAS-home.png": "/static/media/VizDAS-home.f4fe7e290c346cd465fc.png",
+    "static/media/VizDAS-map.png": "/static/media/VizDAS-map.bb9a975db8782b6caf40.png",
+    "static/media/VizDAS-selection.png": "/static/media/VizDAS-selection.ef0f99542e15023b336a.png",
+    "static/media/sarah-persona1.jpg": "/static/media/sarah-persona1.f0d1cafb503283606257.jpg",
+    "static/media/blossom.pdf": "/static/media/blossom.0e769975008db63ea8fa.pdf",
+    "static/media/_DSC9440.jpg": "/static/media/_DSC9440.5c394db95be87dadada7.jpg",
+    "static/media/crest.svg": "/static/media/crest.ff728695fb72989d490090e7e54fd5e6.svg",
+    "static/media/portfolio-ss.png": "/static/media/portfolio-ss.9d6047be95ffbeb9ea3d.png",
+    "static/media/blossom.jpg": "/static/media/blossom.6488df90c9eca668b204.jpg",
+    "static/media/equality.png": "/static/media/equality.56b119c81831b927a7da.png",
+    "static/media/VizDAS-download.png": "/static/media/VizDAS-download.f9d497aa201d5e9f33ba.png",
+    "static/media/VizDAS-graph.png": "/static/media/VizDAS-graph.ec583f8c6f41e770ff3e.png",
+    "static/media/imdb_svg.svg": "/static/media/imdb_svg.0e5f8328811bfd4ec7c8e60489bd3ab2.svg",
+    "static/media/user-flow.png": "/static/media/user-flow.333f0c9e09a8dc436c0b.png",
+    "static/media/user-research.svg": "/static/media/user-research.f8090a05e964b14751df739e0072c50a.svg",
+    "static/media/wireframe.svg": "/static/media/wireframe.36391a5cad09f123c90a96d4dc64ea39.svg",
+    "static/media/adobe-icon.svg": "/static/media/adobe-icon.b7e38249832ae37bbf5b70d9540d7f53.svg",
+    "static/media/blob left corner.svg": "/static/media/blob left corner.f8a49e2e617b5247062c.svg",
+    "static/media/market-research.svg": "/static/media/market-research.e64f69db7b2339fcf4c865b991e7095e.svg",
+    "static/media/blobrightcorner.svg": "/static/media/blobrightcorner.5dde81c8cb6cc98258b3.svg",
+    "static/media/blob-scene-haikei.svg": "/static/media/blob-scene-haikei.0062a8c8291ffdb25f641c5b1a473918.svg",
+    "index.html": "/index.html",
+    "static/media/tailwind.svg": "/static/media/tailwind.3cea3e18b281805a8187c6a559013509.svg",
+    "static/media/head-space.svg": "/static/media/head-space.c1064768724a9bac6da56dec711ad776.svg",
+    "main.465e3ca7.css.map": "/static/css/main.465e3ca7.css.map",
+    "main.32b4684e.js.map": "/static/js/main.32b4684e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.465e3ca7.css",
+    "static/js/main.32b4684e.js"
+  ]
+}
