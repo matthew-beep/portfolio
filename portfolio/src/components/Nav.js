@@ -20,7 +20,7 @@ export default function Nav(props) {
                 <li className='text-xl'><Link to='/' onClick={() => scrollToSection('home')}>Home</Link></li>
                 <li className='text-xl'><Link to='/' onClick={() => scrollToSection('about')}>About</Link></li>
                 <li className='text-xl'><Link to='/' onClick={() => scrollToSection('projects')}>Projects</Link></li>
-                <li className='text-xl'>Contact</li>
+                <li className='text-xl'><Link to='/' onClick={() => scrollToSection('contact')}>Contact</Link></li>
             </ul>
         </nav>
     )

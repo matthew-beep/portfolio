@@ -146,6 +146,7 @@ nav li {
   object-fit: cover;
 }
 
+
 /* Home Page */
 
 .welcome {
@@ -250,8 +251,14 @@ i {
 
 
 /* Body Page */
+.icon-title {
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
 
-
+.body-icon:hover ~ .icon-title {
+  opacity: 1;
+}
 
 /* About Page */
 .about h2 {
@@ -294,6 +301,10 @@ i {
 
 .project-container:hover .info {
   transform: translateY(0);
+}
+
+.custom-position {
+  object-position: 42% 0;
 }
 
 

@@ -43,10 +43,22 @@ export default function VizDAS(props) {
                                     Design application with superior user experience compared to current earth science research tools.
                                 </li>
                             </ul>
-                            <div className="mt-5">
-                                <p className='mt-2'><strong>Role:</strong> UX Designer & Front End Developer</p>
-                                <p className='mt-2'><strong>Tools:</strong> Figma, HTML/CSS, JavaScript, Python, Leaflet, MUI</p>
-                                <p className='mt-2'><strong>Skills:</strong> Wireframing, Prototyping, User Research, Software Development</p>
+                            <div className="mt-5 flex flex-col justify-start">
+                                <div className="flex items-center">
+                                    <i className="fa-brands fa-github text-white text-3xl mr-2"/><p>GitHub Repository Is Private to Protect Lab Information</p>
+                                </div>
+                                <a href="https://dasway.ess.washington.edu/vizdas/" target="_blank">
+                                    <div className="flex items-center">
+                                        <i className="fa-solid fa-display text-white text-2xl mr-2"/>
+                                        <p className="underline">Live Site</p>
+                                    </div>
+                                </a>
+                                <a href="https://ischool.uw.edu/capstone/projects/2023/interactive-data-visualization-distributed-acoustic-sensing" target="_blank">
+                                    <div className="flex items-center">
+                                        <i className="fa-solid fa-display text-white text-2xl mr-2"/>
+                                        <p className="underline">iSchool Project Page</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +182,10 @@ export default function VizDAS(props) {
                                 
                                 <div className="flex justify-between mb-20">
                                     <div className="w-7/12 h-7/12">
-                                        <img src={require('./img/VizDAS-home.png')}></img>
+                                        <img src={require('./img/VizDAS-home.png')} alt="VizDAS landing page"></img>
+                                        <div className="w-full flex justify-center mt-2">
+                                            <p className="text-white boldItalic">Landing Page Screen</p>
+                                        </div>
                                     </div>
                                     <div className="text-left flex-1 ml-3 pr-5">
                                         <div className="mb-3">
@@ -192,7 +207,10 @@ export default function VizDAS(props) {
                                 </div>
                                 <div className="flex justify-between mb-20">
                                     <div className="w-7/12 h-7/12">
-                                        <img src={require('./img/VizDAS-map.png')}></img>
+                                        <img src={require('./img/VizDAS-map.png')} alt="Interactive map screen"></img>
+                                        <div className="w-full flex justify-center mt-2">
+                                            <p className="text-white boldItalic">Interactive Map</p>
+                                        </div>
                                     </div>
                                     <div className="text-left flex-1 ml-3 pr-5">
                                         <div className="mb-3">
@@ -219,7 +237,10 @@ export default function VizDAS(props) {
                                 </div>
                                 <div className="flex justify-between mb-20">
                                     <div className="w-7/12 h-7/12">
-                                        <img src={require('./img/VizDAS-selection.png')}></img>
+                                        <img src={require('./img/VizDAS-selection.png')} alt="Acvessing Map Data"></img>
+                                        <div className="w-full flex justify-center mt-2">
+                                            <p className="text-white boldItalic">Accessing Map Data</p>
+                                        </div>
                                     </div>
                                     <div className="text-left flex-1 ml-3 pr-5">
                                         <div className="mb-3">
@@ -246,8 +267,14 @@ export default function VizDAS(props) {
                                 <div className="flex justify-between mb-20">
                                     
                                     <div className="w-7/12 h-7/12">
-                                        <img className='mb-3' src={require('./img/VizDAS-graph.png')}></img>
-                                        <img src={require('./img/VizDAS-download.png')}></img>
+                                        <img className='mb-2' src={require('./img/VizDAS-graph.png')} alt="Generating Graph Screen"></img>
+                                        <div className="w-full flex justify-center mb-5">
+                                            <p className="text-white boldItalic">Accessing Map Data</p>
+                                        </div>
+                                        <img src={require('./img/VizDAS-download.png')} alt="Download Screen"></img>
+                                        <div className="w-full flex justify-center mt-2">
+                                            <p className="text-white boldItalic">Download Data</p>
+                                        </div>
                                     </div>
                                         
                                     <div className="text-left flex-1 ml-3 pr-5">

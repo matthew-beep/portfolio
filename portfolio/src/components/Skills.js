@@ -76,8 +76,8 @@ export default function Skills(props) {
                         <h4 className="mt-1 ">HTML</h4>
                     </div>
                     <div>
-                        <i className="fa-brands fa-react text-7xl"></i>
-                        <h4 className="mt-1">HTML</h4>
+                        <i class="fa-solid fa-sitemap text-7xl"></i>
+                        <h4 className="mt-1">Site Mapping</h4>
                     </div>
                 </div>
             </div>

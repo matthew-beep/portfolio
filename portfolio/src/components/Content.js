@@ -4,6 +4,7 @@ import Body from './Body.js';
 import About from './About.js';
 import Skills from './Skills.js';
 import Projects from './Projects.js';
+import { ContactUs } from './Contact.js';
 import { useLocation } from 'react-router-dom';
 
 export default function Content(props) {
@@ -28,6 +29,9 @@ export default function Content(props) {
                 </div>
                 <div className='nav-body about h-auto'>
                     <Projects />
+                </div>
+                <div id='contact' className=' border-2 border-solid nav-body about'>
+                    <ContactUs/>
                 </div>
                 <footer>
                     <p className='text-white'>Built and Designed by Matthew Herradura 2023</p>

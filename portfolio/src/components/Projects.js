@@ -96,14 +96,92 @@ export default function Projects(props) {
                             </div>
                         </div>
                     </div>
-                    <div className='mb-5 w-96 border-white border-2 border-solid h-80'>
-
+                    <div className='project-square bg-[#F6C700] project-container'>
+                        <div className='flex'>
+                            <img src={require('./img/portfolio-ss.png')} alt='Portfolio Website Screenshot' className='object-cover custom-position'/>
+                        </div>
+                        <div className='info py-2 px-3'>
+                            <div className='flex flex-col justify-around text-left h-full relative'>
+                                <div className='h-full'>
+                                    <h3 className='bold text-3xl mb-2'>Portfolio Website</h3>  
+                                    <div className='flex mb-2'>
+                                        <div className='pill bold mr-2'>
+                                            <h4>UX Design</h4>
+                                        </div>
+                                        <div className='pill bold'>
+                                            <h4>Front End Development</h4>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        A collection of my professional summary, skills, and past work in the field
+                                        of UX Design and Front End Development compiled in a Web Application designed, 
+                                        built, and deployed by me. 
+                                    </p>
+                                    <p className='mt-2'><strong>Skills:</strong> Wireframing, HTML, CSS, JavaScript, React, Tailwind</p>
+                                </div>
+                                <div className='links flex w-full'>     
+                                    <a href='https://github.com/matthew-beep/portfolio' target='_blank' className='btn-link mr-2 bold text-lg'>Github</a> 
+                                    <a href='#' target='_blank' className='btn-link bold text-lg'>Website</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className='mb-5 w-96 border-white border-2 border-solid h-80'>
-
+                    <div className='project-square bg-[#F6C700] project-container'>
+                        <div className='flex'>
+                            <img src={require('./img/portfolio-ss.png')} alt='Portfolio Website Screenshot' className='object-cover custom-position'/>
+                        </div>
+                        <div className='info py-2 px-3'>
+                            <div className='flex flex-col justify-around text-left h-full relative'>
+                                <div className='h-full'>
+                                    <h3 className='bold text-3xl mb-2'>Equality Now</h3>  
+                                    <div className='flex mb-2'>
+                                        <div className='pill bold mr-2'>
+                                            <h4>Front End Development</h4>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        A collection of my professional summary, skills, and past work in the field
+                                        of UX Design and Front End Development compiled in a Web Application designed, 
+                                        built, and deployed by me. 
+                                    </p>
+                                    <p className='mt-2'><strong>Skills:</strong> Wireframing, HTML, CSS, JavaScript, React, Tailwind</p>
+                                </div>
+                                <div className='links flex w-full'>     
+                                    <a href='https://github.com/matthew-beep/portfolio' target='_blank' className='btn-link mr-2 bold text-lg'>Github</a> 
+                                    <a href='#' target='_blank' className='btn-link bold text-lg'>Website</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className='mb-5 w-96 border-white border-2 border-solid h-80'>
-
+                    <div className='project-square bg-[#F6C700] project-container'>
+                        <div className='flex'>
+                            <img src={require('./img/portfolio-ss.png')} alt='Portfolio Website Screenshot' className='object-cover custom-position'/>
+                        </div>
+                        <div className='info py-2 px-3'>
+                            <div className='flex flex-col justify-around text-left h-full relative'>
+                                <div className='h-full'>
+                                    <h3 className='bold text-3xl mb-2'>Branding and Graphic Design</h3>  
+                                    <div className='flex mb-2'>
+                                        <div className='pill bold mr-2'>
+                                            <h4>UX Design</h4>
+                                        </div>
+                                        <div className='pill bold'>
+                                            <h4>Front End Development</h4>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        A collection of my professional summary, skills, and past work in the field
+                                        of UX Design and Front End Development compiled in a Web Application designed, 
+                                        built, and deployed by me. 
+                                    </p>
+                                    <p className='mt-2'><strong>Skills:</strong> Wireframing, HTML, CSS, JavaScript, React, Tailwind</p>
+                                </div>
+                                <div className='links flex w-full'>     
+                                    <a href='https://github.com/matthew-beep/portfolio' target='_blank' className='btn-link mr-2 bold text-lg'>Github</a> 
+                                    <a href='#' target='_blank' className='btn-link bold text-lg'>Website</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
