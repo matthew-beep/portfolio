@@ -3,7 +3,6 @@ import headSpace from './img/head-space.svg';
 
 export default function VizDAS(props) {
 
-
     return(
         <div>
             <div className="text-white">
