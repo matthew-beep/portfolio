@@ -7,11 +7,8 @@ export default function VizDAS(props) {
 
     return(
         <div>
-            <div>
-                <Link to='/#projects'><i className="fa-solid fa-arrow-left text-white"></i></Link> 
-            </div>
             <div className="text-white">
-                <div className="flex vizdas-header mb-10">
+                <div className="flex vizdas-header mt-8 mb-10">
                     <div className="bg-purple w-1"></div>
                     <h1 className="black text-7xl text-left">VizDAS</h1>
                 </div>
@@ -27,6 +24,11 @@ export default function VizDAS(props) {
                                 The Earth and Space Science Department at UW currently houses a large database of data gathered by DAS and is 
                                 used by researchers to continue their studies.
                             </p>
+                            <div className="mt-4">
+                                <p className='mt-2'><strong>Role:</strong> UX Designer & Front End Developer</p>
+                                <p className='mt-2'><strong>Tools:</strong> Figma, HTML/CSS, JavaScript, Python, Leaflet, MUI</p>
+                                <p className='mt-2'><strong>Skills:</strong> Wireframing, Prototyping, User Research, Software Development</p>
+                            </div>
                         </div>
                         <div className="w-1/2 text-left ml-2">
                             <h3 className="bold text-2xl">
@@ -41,6 +43,11 @@ export default function VizDAS(props) {
                                     Design application with superior user experience compared to current earth science research tools.
                                 </li>
                             </ul>
+                            <div className="mt-5">
+                                <p className='mt-2'><strong>Role:</strong> UX Designer & Front End Developer</p>
+                                <p className='mt-2'><strong>Tools:</strong> Figma, HTML/CSS, JavaScript, Python, Leaflet, MUI</p>
+                                <p className='mt-2'><strong>Skills:</strong> Wireframing, Prototyping, User Research, Software Development</p>
+                            </div>
                         </div>
                     </div>
                     <article className="text-left">
@@ -48,7 +55,7 @@ export default function VizDAS(props) {
                             <div className="flex flex-col mb-5 items-start">
                                 <h2 className="extraBold text-4xl">Problem Space</h2>
                                 <div className="flex flex-col w-1/2 items-start p-0">
-                                    <img src={headSpace} className="w-1/4"></img>
+                                    <img src={headSpace} className="w-1/4" alt="svg blob"/>
                                 </div>
                             </div>
                             <div>
@@ -88,7 +95,7 @@ export default function VizDAS(props) {
                                 </p>
                                 <ul className=" text-lg list-disc pl-5">
                                     <li className="mb-3">Outdated user experience and interfaces.</li>
-                                    <li className="mb-3">Too slow and inefficient in data gathering.</li>
+                                    <li className="mb-3">Being too slow and inefficient in data collection, sometimes taking up to two hours to gather data on a single dataset.</li>
                                     <li className="mb-3">Lack user friendly features such as data filtering and data visualization.</li>
                                     <li className="mb-3">Irrelevant data is often collected.</li>
                                     <li className="mb-20">Overall, too complicated to use.</li>
@@ -99,7 +106,7 @@ export default function VizDAS(props) {
                             <div className="flex flex-col mb-5 items-start">
                                 <h2 className="extraBold text-4xl">Problem Statement</h2>
                                 <div className="flex flex-col w-1/2 items-start p-0">
-                                    <img src={headSpace} className="w-1/4"></img>
+                                    <img src={headSpace} className="w-1/4" alt="svg blob"/>
                                 </div>
                             </div>
                             <p className="text-lg mb-10">
@@ -111,7 +118,7 @@ export default function VizDAS(props) {
                             <div className="flex flex-col mb-5 items-start">
                                 <h2 className="extraBold text-4xl">User Personas</h2>
                                 <div className="flex flex-col w-1/2 items-start p-0">
-                                    <img src={headSpace} className="w-1/4"></img>
+                                    <img src={headSpace} className="w-1/4" alt="svg blob"/>
                                 </div>
                             </div>
                             <p className="text-lg mb-10">
@@ -132,7 +139,7 @@ export default function VizDAS(props) {
                             <div className="flex flex-col mb-5 items-start">
                                 <h2 className="extraBold text-4xl">Solution</h2>
                                 <div className="flex flex-col w-1/2 items-start p-0">
-                                    <img src={headSpace} className="w-1/4"></img>
+                                    <img src={headSpace} className="w-1/4" alt="svg blob"/>
                                 </div>
                             </div>
                             <div>
@@ -183,7 +190,7 @@ export default function VizDAS(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex justify-between">
+                                <div className="flex justify-between mb-20">
                                     <div className="w-7/12 h-7/12">
                                         <img src={require('./img/VizDAS-map.png')}></img>
                                     </div>
@@ -201,12 +208,88 @@ export default function VizDAS(props) {
                                             </p>                                       
                                         </div>
                                         <div>
-                                            <h3 className="extraBold text-2xl mb-1">How it Works /</h3>                                    
+                                            <h3 className="extraBold text-2xl mb-1">How it Works /</h3>
+                                            <p>
+                                                I utilized the Leaflet JavaScript library which allows for easy integration for interactive maps.
+                                                The cables are displayed based on their channel coordinates which we placed in a JSON filed and used in conjuction with
+                                                Leaflet's &lt;Polyline&gt; component.    
+                                            </p>                                    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex justify-between mb-20">
+                                    <div className="w-7/12 h-7/12">
+                                        <img src={require('./img/VizDAS-selection.png')}></img>
+                                    </div>
+                                    <div className="text-left flex-1 ml-3 pr-5">
+                                        <div className="mb-3">
+                                            <h3 className="extraBold text-2xl mb-1">Requirement /</h3>
+                                            <p>
+                                                Map needs to display accurate DAS cable and sensor location.                                            
+                                            </p>                                            
+                                        </div>
+                                        <div>
+                                            <h3 className="extraBold text-2xl mb-1">Application Feature /</h3>
+                                            <p className="mb-3">
+                                                Map displays channels based on accurate coordinates which users can select to directly access data.
+                                            </p>                                       
+                                        </div>
+                                        <div>
+                                            <h3 className="extraBold text-2xl mb-1">How it Works /</h3>       
+                                            <p className="mb-3">
+                                                Leaflet has a &lt;Popup&gt; component integrated in its library
+                                                which I connected to its JSON file to show metadata.
+                                            </p>                             
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="flex justify-between mb-20">
+                                    
+                                    <div className="w-7/12 h-7/12">
+                                        <img className='mb-3' src={require('./img/VizDAS-graph.png')}></img>
+                                        <img src={require('./img/VizDAS-download.png')}></img>
+                                    </div>
+                                        
+                                    <div className="text-left flex-1 ml-3 pr-5">
+                                        <div className="mb-3">
+                                            <h3 className="extraBold text-2xl mb-1">Requirement /</h3>
+                                            <p>
+                                                Users want to save time collecting data and reduce the amount of irrelevant data downloaded on their computer.                                          
+                                            </p>                                            
+                                        </div>
+                                        <div>
+                                            <h3 className="extraBold text-2xl mb-1">Application Feature /</h3>
+                                            <p className="mb-3">
+                                                Users can quickly query and visualize data before downloading it to their personal devices to 
+                                                ensure the data is significant to their studies.                                            
+                                            </p>                                       
+                                        </div>
+                                        <div>
+                                            <h3 className="extraBold text-2xl mb-1">How it Works /</h3>
+                                            <p className="mb-3">
+                                                UW's ESS department hosts a 12+ terabyte large database on the cloud. Upon development of our front
+                                                end, I collaborated with the lab and my team's data engineers to connect their back end to our application using Python and the Flask API.
+                                                Users are able to select certain criteria for the type of data they want to look at, which is then queried from a database and shown as 
+                                                a SVG graph.
+                                            </p>                                    
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div className="mb-20">
+                                    <h3 className="boldItalic text-lg mb-1"> Standard User Flow /</h3>
+                                    <hr className="border-t-4 opacity-100 border-t-purple mb-1"/>
+                                    <img src={require("./img/user-flow.png")} alt="User Flow Graph"/>
+                            </div>
+                            <div className="mb-20 h-screen">
+                                    <h3 className="boldItalic text-lg mb-1"> Demo Video /</h3>
+                                    <hr className="border-t-4 opacity-100 border-t-purple mb-10"/>
+                                    <div className="w-3/4 h-3/4 flex m-auto">
+                                        <iframe className="w-full h-full" src="https://www.youtube.com/embed/pJog_7Xw-v8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                            </div>
                         </section>
+                        
                     </article>
                 </div>
             </div>

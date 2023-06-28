@@ -15,10 +15,8 @@ export default function Projects(props) {
             </h2>
             <div className='m-auto px-3'>
                 <div className='flex flex-wrap justify-between'>
-                    <div className='project-square project-container'>
-                        <div className='w-full h-full bg-purple'>
-                            Test
-                        </div>
+                    <div className='project-square bg-[#F6C700] project-container'>
+                        <img src={require('./img/VizDAS-home.png')} className='object-cover'alt='VizDAS homepage'/>
                         <div className='info py-2 px-3'>
                             <div className='flex flex-col justify-around text-left h-full relative'>
                                 <div className='h-full'>
@@ -32,21 +30,18 @@ export default function Projects(props) {
                                         </div>
                                     </div>
                                     <p>The first ever public facing Distributed Acoustic Sensing research tool. Built in collaboration with 
-                                        UW's Earth and Space Science Department and recognized as a Research Award Finalist at the iSchool 
-                                        Capstone Gala.
+                                        UW's Earth and Space Science Department and recognized as a Research Award Finalist at the  
+                                        <a className='underline text-purple' href='https://ischool.uw.edu/capstone/projects/2023/interactive-data-visualization-distributed-acoustic-sensing'> iSchool 
+                                        Capstone Gala.</a>
                                     </p>
-                                    <p><strong>Skills:</strong> HTML/CSS, JavaScript, Python, Leaflet, MUI</p>
+                                    <p className='mt-2'><strong>Skills:</strong> HTML/CSS, JavaScript, Python, Leaflet, MUI</p>
                                 </div>
+                                <div className='links flex w-full'>                                   
+                                    <Link className='btn-link mr-2 bold text-lg' to='/VizDAS'>Full Case Study</Link>
+                                    <a href='https://dasway.ess.washington.edu/vizdas/' className='btn-link bold text-lg' target='_blank'>Live Site</a>
                             </div>
-                            <div className='links flex w-full bottom-0 absolute'>
-                                    <div className='m-auto flex items-center'>
-                                        <a href='#'>Live Site</a> 
-                                        <div className='mx-1 m-auto'> | </div>
-                                        <a href='https://ischool.uw.edu/capstone/projects/2023/interactive-data-visualization-distributed-acoustic-sensing' target='_blank'>Project Page</a>
-                                        <div className='mx-1 m-auto'> | </div>
-                                        <Link to='/VizDAS'>Full Case Study</Link>
-                                    </div>
                             </div>
+
                         </div>
 
                     </div>
