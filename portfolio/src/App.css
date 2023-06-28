@@ -321,6 +321,7 @@ i {
 
 
 
+
 /* Fonts */
 .black {
   font-family: "proxima-nova", sans-serif;
@@ -350,4 +351,10 @@ i {
   font-family: "proxima-nova", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+.regular {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

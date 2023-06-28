@@ -30,11 +30,11 @@ export default function Content(props) {
                 <div className='nav-body about h-auto'>
                     <Projects />
                 </div>
-                <div id='contact' className=' border-2 border-solid nav-body about'>
+                <div id='contact' className='p-0 nav-body about'>
                     <ContactUs/>
                 </div>
                 <footer>
-                    <p className='text-white'>Built and Designed by Matthew Herradura 2023</p>
+                    <p className='text-white bold text-md'>Built and Designed by Matthew Herradura 2023</p>
                 </footer>
             </div>
         </div>
