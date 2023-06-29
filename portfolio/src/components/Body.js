@@ -40,7 +40,7 @@ export default function Body(props) {
                                 <h4 id='title' className='m-auto icon-title'>Contact Me</h4>
                             </div>
                             <div className='flex flex-col items-center'>
-                            <a href={resume} target='_blank'><i className="fa-solid fa-file text-5xl hover:text-white body-icon mb-2"/></a>
+                            <a href={resume} target='_blank' className='body-icon'><i className="fa-solid fa-file text-5xl hover:text-white body-icon mb-2"/></a>
                                 <h4 id='title' className='m-auto icon-title'>Resume</h4>
                             </div>
                         </div>
