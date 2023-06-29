@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.465e3ca7.css",
-    "main.js": "/static/js/main.32b4684e.js",
+    "main.js": "/static/js/main.1a0dde70.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/imdbDoc.pdf": "/static/media/imdbDoc.a2a9cf944807165cbcef.pdf",
     "static/media/imdbPres.pdf": "/static/media/imdbPres.d668efe1f56e6c8dab04.pdf",
@@ -32,11 +32,11 @@
     "static/media/tailwind.svg": "/static/media/tailwind.3cea3e18b281805a8187c6a559013509.svg",
     "static/media/head-space.svg": "/static/media/head-space.c1064768724a9bac6da56dec711ad776.svg",
     "main.465e3ca7.css.map": "/static/css/main.465e3ca7.css.map",
-    "main.32b4684e.js.map": "/static/js/main.32b4684e.js.map",
+    "main.1a0dde70.js.map": "/static/js/main.1a0dde70.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.465e3ca7.css",
-    "static/js/main.32b4684e.js"
+    "static/js/main.1a0dde70.js"
   ]
 }
