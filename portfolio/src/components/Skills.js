@@ -51,7 +51,7 @@ export default function Skills(props) {
                             </div>
                             <div>
                                 <img src={market} className='m-auto mb-1 w-4/12 h-4/12' alt='Market Research Icon'/>
-                                <h4 className="mt-1 pt-1">User Research</h4>
+                                <h4 className="mt-1 pt-1">Market Research</h4>
                             </div>
                         </div>
                     </div>
