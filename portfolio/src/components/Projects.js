@@ -142,7 +142,7 @@ export default function Projects(props) {
                                     </div>
                                     <p className='regular'>
                                         A Minimum Viable Product developed with team of project managers, ux designers, and developers. MVP aims 
-                                        to bring awareness to gender wage gap inequalities. 
+                                        to bring awareness to gender wage gap inequalities through data and charity access. 
                                     </p>
                                     <p className='mt-2'><strong>Skills:</strong> Wireframing, HTML, CSS, JavaScript, React, Tableau</p>
                                 </div>
