@@ -10,7 +10,7 @@ export default function Body(props) {
     };
     
     return (      
-        <div id='home' className='container home'>
+            <div id='home' className='container home'>
             <div className='row align-items-center home-content'>
                 <div className='col-12 col-md-6 intro-text'>
                     <div className='pl-2'>
@@ -21,7 +21,7 @@ export default function Body(props) {
                     </div>
                     <div className='inline-flex flex-col items-start'>
                         
-                        <div className='flex justify-between w-3/4 mt-2'>
+                        <div className='flex justify-around md:justify-between md:w-3/4 w-full mt-2'>
                             <div>
                                 <a href='https://www.linkedin.com/in/matthewherradura/' target='_blank'>
                                     <div className='flex flex-col items-center'>

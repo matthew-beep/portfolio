@@ -20,19 +20,19 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className='flex justify-center items-center w-full h-full'>
-        <div className='flex justify-around items- w-full'>
-            <div className='w-4/12'>
+    <div className='flex justify-center items-center w-full md:h-full h-auto'>
+        <div className='p-3 md:p-0 flex md:flex-row flex-col justify-around w-full '>
+            <div className='md:w-4/12 mb-5 md:mb-0 '>
                 <h2 className='text-5xl text-left underline decoration-purple underline-offset-8 text-white mb-8'>Contact Me</h2>
-                <p className='text-left text-white text-2xl semiBold'>
+                <p className='text-left text-white text-xl sm:text-2xl semiBold'>
                     Feel free to contact me if you want to connect, collaborate with me, or have any questions about my work.
                 </p>
-                <p className='mt-5 text-left text-white text-2xl semiBold'>
+                <p className='mt-5 text-left text-white text-xl sm:text-2xl semiBold'>
                     You can also directly email me at matthew.herradura@gmail.com. Leave me a message
                     and I will get back to you as soon as I can!
                 </p>
             </div>
-            <div className='w-5/12'>
+            <div className='md:w-5/12'>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='m-auto flex flex-col w-full justify-center'>
                         <label className='text-white text-xl text-left bold'>Name</label>

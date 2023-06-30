@@ -54,7 +54,6 @@
   }
 }
 
-
 @media (max-width: 768px) {
   nav {
     display: none;
@@ -63,7 +62,7 @@
   .home-content {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -83,7 +82,14 @@
     background-position: top right;
     object-fit: cover;
   }
-  
+
+  .blob2 {
+    display: none;
+  }
+
+  .icon-body {
+    width: 100%;
+  }
 
 }
 
@@ -95,8 +101,6 @@
     flex-direction: column;
     justify-content: space-around;
   }
-
-
 }
 /* Nav Bar */
 
@@ -195,7 +199,6 @@ i {
   width: 100%;
   position: relative;
   padding-top: 8.33%;
-
   padding-left: 0;
   padding-right: 0;
 }
@@ -236,18 +239,8 @@ i {
   object-fit: cover;
 } 
 
-/*
-.page-container {
-  background-image: url('./components/img/blob-scene-1.svg');
-  background-size: 100% auto; 
-  z-index: -1;
-  padding-bottom: 0;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center center;
 
-}
-*/
+
 
 
 /* Body Page */

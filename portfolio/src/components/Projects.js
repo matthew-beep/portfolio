@@ -15,7 +15,7 @@ export default function Projects(props) {
                 Projects
             </h2>
             <div className='m-auto px-3'>
-                <div className='flex flex-wrap justify-between'>
+                <div className='flex md:flex-wrap lg:flex-row flex-col items-center justify-between'>
                     <div className='project-square bg-[#F6C700] project-container'>
                         <img src={require('./img/VizDAS-home.png')} className='object-cover'alt='VizDAS homepage'/>
                         <div className='info py-2 px-3'>
